@@ -2,7 +2,7 @@ FSM up/down counter
 ===================
 
 Function:               Cycle through a RGB LED sequence where the input of a button changes the direction of the sequence
-Circuit Schematic No.:  1
+Circuit Schematic No.:  1 : https://github.com/ELECXJEL2645/Circuit_Schematics
 Required Libraries:     
 
 Authored by:            Dr Craig Evans
