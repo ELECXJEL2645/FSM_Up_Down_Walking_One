@@ -1,5 +1,5 @@
-FSM up/down counter
-===================
+RGB_Sequence_Direction_Change
+=============================
 
 Function:               Cycle through a RGB LED sequence where the input of a button changes the direction of the sequence
 Circuit Schematic No.:  1 : https://github.com/ELECXJEL2645/Circuit_Schematics
