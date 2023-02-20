@@ -2,7 +2,7 @@ FSM_Up_Down_Walking_One
 =============================
 
 Function:               Cycles through walking-one parten where the input of a button changes the direction of the sequence
-Circuit Schematic No.:  1 : https://github.com/ELECXJEL2645/Circuit_Schematics
+Circuit Schematic No.:  1 : 
 Required Libraries:     
 
 Authored by:            Dr Craig Evans
