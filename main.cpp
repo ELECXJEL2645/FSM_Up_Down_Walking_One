@@ -123,7 +123,7 @@ int main(){
     }
 }
  
-// Button A event-triggered interrupt
+// Joystick push-button event-triggered interrupt
 void Joystick_Button_isr(){
     g_Joystick_Button_flag = 1;   // set flag in ISR
 }
