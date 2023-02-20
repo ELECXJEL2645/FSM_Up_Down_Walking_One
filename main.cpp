@@ -34,7 +34,7 @@ int g_fsm[4] = {0b000,0b001,0b010,0b100};
 volatile int g_Joystick_Button_flag = 0;
 
 void init_buttons();
-// Button A interrupt service routine
+// Joystick push-button interrupt service routine
 void Joystick_Button_isr();
 void init_led();
  
@@ -42,7 +42,7 @@ int main(){
 	init_buttons();
 	init_led();
 	
-    // Button A has a pull-up resistor, so the pin will be at 3.3 V by default
+    // The joystick push-button has a pull-up resistor, so the pin will be at 3.3 V by default
     // and fall to 0 V when pressed. We therefore need to look for a falling-edge
     // on the pin to fire the interrupt
     Joystick_Button.fall(&Joystick_Button_isr);
@@ -129,7 +129,7 @@ void Joystick_Button_isr(){
 }
 
 void init_buttons(){
-	// Set the joystick button to internal pull-up resistor
+	// Set the joystick push-button to use an internal pull-up resistor
     Joystick_Button.mode(PullUp);
 }
 
